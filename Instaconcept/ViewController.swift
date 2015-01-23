@@ -93,9 +93,8 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
                 self.activityIndicator.stopAnimating()
                 UIApplication.sharedApplication().endIgnoringInteractionEvents()
                 if registerError == nil {
-                    if PFUser.currentUser() != nil {
-                        self.performSegueWithIdentifier("jumpToUserTable", sender: self)
-                    }
+                                        self.performSegueWithIdentifier("jumpToUserTable", sender: self)
+                    
                     
                 } else {
                     
@@ -116,9 +115,9 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
                     UIApplication.sharedApplication().endIgnoringInteractionEvents()
                     
                     if loginError == nil {
-                        if PFUser.currentUser() != nil {
+                    
                             self.performSegueWithIdentifier("jumpToUserTable", sender: self)
-                        }
+                        
                     } else {
                         if let errorString = loginError.userInfo?["error"] as? NSString {
                             error = errorString
