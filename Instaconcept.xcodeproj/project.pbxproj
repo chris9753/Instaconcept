@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2825CDD81A6F163A0058A514 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAF11A66229A00FF3FE5 /* Bolts.framework */; };
+		2825CDD91A6F163E0058A514 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAEF1A66228500FF3FE5 /* Parse.framework */; };
+		28C81E6F1A71545C0053225E /* iOs-7-parallax-ready-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C81E6E1A71545C0053225E /* iOs-7-parallax-ready-wallpaper.jpg */; };
+		28C81E711A71D46A0053225E /* userPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C81E701A71D46A0053225E /* userPhotoView.swift */; };
+		28C81E731A71D6010053225E /* photoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C81E721A71D6010053225E /* photoCell.swift */; };
+		28C986AF1A700846007AD8CD /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C986AD1A700846007AD8CD /* UserTableViewController.swift */; };
+		28C986B21A70B297007AD8CD /* blurred lights night blur iphone 6 plus wallpapers - blur rules iphone 6 plus wallpapers-f95684.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C986B11A70B297007AD8CD /* blurred lights night blur iphone 6 plus wallpapers - blur rules iphone 6 plus wallpapers-f95684.jpg */; };
+		28C986B41A70B4EC007AD8CD /* iPhone-6-wallpaper-iOS8-Color-Blurred-Colors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C986B31A70B4EC007AD8CD /* iPhone-6-wallpaper-iOS8-Color-Blurred-Colors.jpg */; };
+		28C986B61A70B555007AD8CD /* postViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C986B51A70B555007AD8CD /* postViewController.swift */; };
+		28C986B81A70B7A2007AD8CD /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C986B71A70B7A2007AD8CD /* photo.jpg */; };
 		28F4AAD01A66225900FF3FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F4AACF1A66225900FF3FE5 /* AppDelegate.swift */; };
 		28F4AAD21A66225900FF3FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F4AAD11A66225900FF3FE5 /* ViewController.swift */; };
 		28F4AAD51A66225900FF3FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F4AAD31A66225900FF3FE5 /* Main.storyboard */; };
 		28F4AAD71A66225900FF3FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F4AAD61A66225900FF3FE5 /* Images.xcassets */; };
 		28F4AADA1A66225900FF3FE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F4AAD81A66225900FF3FE5 /* LaunchScreen.xib */; };
 		28F4AAE61A66225900FF3FE5 /* InstaconceptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F4AAE51A66225900FF3FE5 /* InstaconceptTests.swift */; };
+		28F4AAF41A66233900FF3FE5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAF31A66233900FF3FE5 /* CFNetwork.framework */; };
+		28F4AAF61A66234A00FF3FE5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAF51A66234A00FF3FE5 /* AudioToolbox.framework */; };
+		28F4AAF81A66236500FF3FE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAF71A66236500FF3FE5 /* CoreGraphics.framework */; };
+		28F4AAFA1A66237500FF3FE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAF91A66237500FF3FE5 /* CoreLocation.framework */; };
+		28F4AAFC1A66238200FF3FE5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAFB1A66238200FF3FE5 /* MobileCoreServices.framework */; };
+		28F4AAFE1A66238800FF3FE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAFD1A66238800FF3FE5 /* QuartzCore.framework */; };
+		28F4AB001A66239900FF3FE5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AAFF1A66239900FF3FE5 /* Security.framework */; };
+		28F4AB021A6623A000FF3FE5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AB011A6623A000FF3FE5 /* StoreKit.framework */; };
+		28F4AB041A6623A800FF3FE5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AB031A6623A800FF3FE5 /* SystemConfiguration.framework */; };
+		28F4AB061A6623B600FF3FE5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AB051A6623B600FF3FE5 /* libz.dylib */; };
+		28F4AB081A6623E000FF3FE5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4AB071A6623E000FF3FE5 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28C81E6E1A71545C0053225E /* iOs-7-parallax-ready-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iOs-7-parallax-ready-wallpaper.jpg"; path = "../../../Downloads/iOs-7-parallax-ready-wallpaper.jpg"; sourceTree = "<group>"; };
+		28C81E701A71D46A0053225E /* userPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = userPhotoView.swift; path = ../userPhotoView.swift; sourceTree = "<group>"; };
+		28C81E721A71D6010053225E /* photoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = photoCell.swift; path = ../photoCell.swift; sourceTree = "<group>"; };
+		28C986AD1A700846007AD8CD /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		28C986B11A70B297007AD8CD /* blurred lights night blur iphone 6 plus wallpapers - blur rules iphone 6 plus wallpapers-f95684.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "blurred lights night blur iphone 6 plus wallpapers - blur rules iphone 6 plus wallpapers-f95684.jpg"; path = "../../../Downloads/blurred lights night blur iphone 6 plus wallpapers - blur rules iphone 6 plus wallpapers-f95684.jpg"; sourceTree = "<group>"; };
+		28C986B31A70B4EC007AD8CD /* iPhone-6-wallpaper-iOS8-Color-Blurred-Colors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iPhone-6-wallpaper-iOS8-Color-Blurred-Colors.jpg"; path = "../../../Downloads/iPhone-6-wallpaper-iOS8-Color-Blurred-Colors.jpg"; sourceTree = "<group>"; };
+		28C986B51A70B555007AD8CD /* postViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postViewController.swift; sourceTree = "<group>"; };
+		28C986B71A70B7A2007AD8CD /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpg; path = ../../../Downloads/photo.jpg; sourceTree = "<group>"; };
 		28F4AACA1A66225900FF3FE5 /* Instaconcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instaconcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F4AACE1A66225900FF3FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F4AACF1A66225900FF3FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +65,19 @@
 		28F4AADF1A66225900FF3FE5 /* InstaconceptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaconceptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F4AAE41A66225900FF3FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F4AAE51A66225900FF3FE5 /* InstaconceptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaconceptTests.swift; sourceTree = "<group>"; };
+		28F4AAEF1A66228500FF3FE5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		28F4AAF11A66229A00FF3FE5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
+		28F4AAF31A66233900FF3FE5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		28F4AAF51A66234A00FF3FE5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		28F4AAF71A66236500FF3FE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28F4AAF91A66237500FF3FE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		28F4AAFB1A66238200FF3FE5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		28F4AAFD1A66238800FF3FE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		28F4AAFF1A66239900FF3FE5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		28F4AB011A6623A000FF3FE5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		28F4AB031A6623A800FF3FE5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		28F4AB051A6623B600FF3FE5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		28F4AB071A6623E000FF3FE5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +85,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F4AB081A6623E000FF3FE5 /* libsqlite3.dylib in Frameworks */,
+				28F4AB061A6623B600FF3FE5 /* libz.dylib in Frameworks */,
+				28F4AB041A6623A800FF3FE5 /* SystemConfiguration.framework in Frameworks */,
+				28F4AB021A6623A000FF3FE5 /* StoreKit.framework in Frameworks */,
+				28F4AB001A66239900FF3FE5 /* Security.framework in Frameworks */,
+				28F4AAFE1A66238800FF3FE5 /* QuartzCore.framework in Frameworks */,
+				28F4AAFC1A66238200FF3FE5 /* MobileCoreServices.framework in Frameworks */,
+				28F4AAFA1A66237500FF3FE5 /* CoreLocation.framework in Frameworks */,
+				28F4AAF81A66236500FF3FE5 /* CoreGraphics.framework in Frameworks */,
+				28F4AAF61A66234A00FF3FE5 /* AudioToolbox.framework in Frameworks */,
+				28F4AAF41A66233900FF3FE5 /* CFNetwork.framework in Frameworks */,
+				2825CDD81A6F163A0058A514 /* Bolts.framework in Frameworks */,
+				2825CDD91A6F163E0058A514 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +111,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2825CDD71A6F15280058A514 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28F4AAEF1A66228500FF3FE5 /* Parse.framework */,
+				28F4AAF11A66229A00FF3FE5 /* Bolts.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		285D5D371A71E03D001DDBCA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				28C986B71A70B7A2007AD8CD /* photo.jpg */,
+				28C81E6E1A71545C0053225E /* iOs-7-parallax-ready-wallpaper.jpg */,
+				28C986B31A70B4EC007AD8CD /* iPhone-6-wallpaper-iOS8-Color-Blurred-Colors.jpg */,
+				28C986B11A70B297007AD8CD /* blurred lights night blur iphone 6 plus wallpapers - blur rules iphone 6 plus wallpapers-f95684.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		28F4AAC11A66225900FF3FE5 = {
 			isa = PBXGroup;
 			children = (
+				28F4AB071A6623E000FF3FE5 /* libsqlite3.dylib */,
+				28F4AB051A6623B600FF3FE5 /* libz.dylib */,
+				28F4AB031A6623A800FF3FE5 /* SystemConfiguration.framework */,
+				28F4AB011A6623A000FF3FE5 /* StoreKit.framework */,
+				28F4AAFF1A66239900FF3FE5 /* Security.framework */,
+				28F4AAFD1A66238800FF3FE5 /* QuartzCore.framework */,
+				28F4AAFB1A66238200FF3FE5 /* MobileCoreServices.framework */,
+				28F4AAF91A66237500FF3FE5 /* CoreLocation.framework */,
+				28F4AAF71A66236500FF3FE5 /* CoreGraphics.framework */,
+				28F4AAF51A66234A00FF3FE5 /* AudioToolbox.framework */,
+				28F4AAF31A66233900FF3FE5 /* CFNetwork.framework */,
 				28F4AACC1A66225900FF3FE5 /* Instaconcept */,
 				28F4AAE21A66225900FF3FE5 /* InstaconceptTests */,
 				28F4AACB1A66225900FF3FE5 /* Products */,
@@ -77,9 +163,15 @@
 		28F4AACC1A66225900FF3FE5 /* Instaconcept */ = {
 			isa = PBXGroup;
 			children = (
+				2825CDD71A6F15280058A514 /* frameworks */,
 				28F4AACF1A66225900FF3FE5 /* AppDelegate.swift */,
 				28F4AAD11A66225900FF3FE5 /* ViewController.swift */,
 				28F4AAD31A66225900FF3FE5 /* Main.storyboard */,
+				28C986AD1A700846007AD8CD /* UserTableViewController.swift */,
+				28C986B51A70B555007AD8CD /* postViewController.swift */,
+				28C81E701A71D46A0053225E /* userPhotoView.swift */,
+				28C81E721A71D6010053225E /* photoCell.swift */,
+				285D5D371A71E03D001DDBCA /* images */,
 				28F4AAD61A66225900FF3FE5 /* Images.xcassets */,
 				28F4AAD81A66225900FF3FE5 /* LaunchScreen.xib */,
 				28F4AACD1A66225900FF3FE5 /* Supporting Files */,
@@ -192,6 +284,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C986B21A70B297007AD8CD /* blurred lights night blur iphone 6 plus wallpapers - blur rules iphone 6 plus wallpapers-f95684.jpg in Resources */,
+				28C986B41A70B4EC007AD8CD /* iPhone-6-wallpaper-iOS8-Color-Blurred-Colors.jpg in Resources */,
+				28C81E6F1A71545C0053225E /* iOs-7-parallax-ready-wallpaper.jpg in Resources */,
+				28C986B81A70B7A2007AD8CD /* photo.jpg in Resources */,
 				28F4AAD51A66225900FF3FE5 /* Main.storyboard in Resources */,
 				28F4AADA1A66225900FF3FE5 /* LaunchScreen.xib in Resources */,
 				28F4AAD71A66225900FF3FE5 /* Images.xcassets in Resources */,
@@ -212,7 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C986B61A70B555007AD8CD /* postViewController.swift in Sources */,
+				28C81E711A71D46A0053225E /* userPhotoView.swift in Sources */,
+				28C81E731A71D6010053225E /* photoCell.swift in Sources */,
 				28F4AAD21A66225900FF3FE5 /* ViewController.swift in Sources */,
+				28C986AF1A700846007AD8CD /* UserTableViewController.swift in Sources */,
 				28F4AAD01A66225900FF3FE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +436,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chrisdasilva/Downloads/parse-library-1",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Instaconcept/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instaconcept-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +454,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chrisdasilva/Downloads/parse-library-1",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Instaconcept/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instaconcept-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +520,7 @@
 				28F4AAEB1A66225900FF3FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28F4AAEC1A66225900FF3FE5 /* Build configuration list for PBXNativeTarget "InstaconceptTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +529,7 @@
 				28F4AAEE1A66225900FF3FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
